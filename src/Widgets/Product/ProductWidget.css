@@ -1,0 +1,110 @@
+.pw__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid var(--dark-color);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.pw__line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.5rem;
+}
+
+.pw__name {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.pw__line3 {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-areas: 'catl catv catv catv skul skuv skuv';
+  align-items: center;
+}
+
+.pw__catlabel {
+  grid-area: catl;
+}
+
+.pw__catvalue {
+  grid-area: catv;
+}
+
+.pw__skulabel {
+  grid-area: skul;
+}
+
+.pw__skuvalue {
+  grid-area: skuv;
+}
+
+.pw__line4 {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-areas: 'isl isv rll rlv ral rav btn';
+  align-items: center;
+}
+
+.pw__label {
+  font-weight: 700;
+}
+
+.pw__islabel {
+  grid-area: isl;
+}
+
+.pw__isvalue {
+  grid-area: isv;
+}
+
+.pw__rllabel {
+  grid-area: rll;
+}
+
+.pw__rlvalue {
+  grid-area: rlv;
+}
+
+.pw__ralabel {
+  grid-area: ral;
+}
+
+.pw__ravalue {
+  grid-area: rav;
+}
+
+.pw__buttons {
+  grid-area: btn;
+  justify-self: flex-end;
+  gap: 5px;
+}
+
+.pw__ab__icon {
+  max-height: 20px;
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+.pw__stretch {
+  flex: 1;
+}
+
+.pw__rightalign {
+  justify-self: flex-end;
+}
+
+.pw__description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pw__italics {
+  font-style: italic;
+}

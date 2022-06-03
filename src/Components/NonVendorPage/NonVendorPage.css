@@ -1,0 +1,9 @@
+#nvp__messages {
+  height: 100%;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  padding: 2rem 4rem;
+  border: 3px solid var(--black-color);
+  box-shadow: 5px 7px 7px var(--dark-color);
+  font-weight: 700;
+}

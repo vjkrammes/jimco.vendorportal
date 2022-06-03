@@ -1,0 +1,105 @@
+#mp__modal {
+  max-width: 500px;
+}
+
+.mp__em__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mp__em__heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 125%;
+}
+
+.mp__em__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formitem .formlabel {
+  min-width: 125px;
+}
+
+.mp__em__error {
+  font-style: italic;
+  color: var(--error-color);
+  text-align: center;
+  height: 1rem;
+}
+
+.mp__em__notice {
+  text-align: center;
+  font-style: italic;
+  padding: 1rem 2rem;
+  margin-block: 1rem;
+  border: 1px dotted var(--dark-color);
+  border-radius: 5px;
+  background-color: var(--light-accent-faded);
+}
+
+.mp__em__bold {
+  font-weight: 700;
+}
+
+.mp__demoform {
+  padding-bottom: 1rem;
+}
+
+.mp__nodemo {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border: 1px solid var(--black-color);
+}
+
+.formlabel {
+  min-width: 100px;
+}
+
+.shortformlabel {
+  min-width: auto;
+  max-width: 50px;
+}
+
+.mp__df__info {
+  vertical-align: super;
+  color: var(--dark-color);
+  cursor: help;
+}
+
+.mp__democontent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mp__pagercontent,
+.mp__pc__form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.mp__pagercontent {
+  gap: 5px;
+}
+
+.mp__pagerbuttoncontent {
+  color: var(--black-color);
+}
+
+.mp__pc__f__input {
+  flex: 1;
+}
+
+.mp__productlist {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

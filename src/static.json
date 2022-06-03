@@ -1,0 +1,44 @@
+{
+  "address": [
+    "JimCo Retailers Vendor Support",
+    "100 West Harambe Memorial Pkwy",
+    "South Niflheim, TN, 37999",
+    "In the Towne Centre Mall"
+  ],
+  "emailAddresses": [
+    {
+      "description": "Contact",
+      "address": "daymanager@jimco.online"
+    },
+    {
+      "description": "Accounting",
+      "address": "accounting@jimco.online"
+    },
+    {
+      "description": "Invoicing",
+      "address": "invoices@jimco.online"
+    },
+    {
+      "description": "Compliance",
+      "address": "hr-compliance@jimco.online"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "description": "Phone",
+      "number": "615-55-JIMCO"
+    },
+    {
+      "description": "Emergencies",
+      "number": "615-555-2115"
+    },
+    {
+      "description": "Vendor Support",
+      "number": "615-55-JCVEND"
+    },
+    {
+      "description": "Fax",
+      "number": "615-55-JCFAX"
+    }
+  ]
+}
