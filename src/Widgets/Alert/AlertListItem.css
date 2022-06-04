@@ -1,0 +1,54 @@
+.ali__container {
+  display: grid;
+  grid-template-columns: 32px repeat(7, 100px) 68px;
+  grid-template-rows: auto;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--dark-accent);
+}
+
+.ali__icon {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ali__icon img {
+  width: 16px;
+  height: 16px;
+}
+
+.ali__date {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  font-weight: 700;
+}
+
+.ali__creator {
+  grid-column: 3 / 5;
+  grid-row: 1;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ali__title {
+  grid-column: 5 / -2;
+  grid-row: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ali__buttoncontainer {
+  grid-column: 9 / -1;
+  grid-row: 1;
+  justify-self: flex-end;
+  z-index: 100;
+}
+
+.ali__buttoncontainer button {
+  z-index: inherit;
+}

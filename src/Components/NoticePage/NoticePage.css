@@ -1,0 +1,15 @@
+.np__alertcontainer,
+.np__noticecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.np__noalerts {
+  text-align: center;
+  font-weight: 700;
+  font-size: 125%;
+  padding: 1rem 2rem;
+  border: 1px solid var(--black-color);
+  margin-bottom: 10px;
+}
