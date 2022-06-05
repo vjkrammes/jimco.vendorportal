@@ -1,5 +1,5 @@
-export const server = 'https://localhost:5011';
-// export const server = "https://jimcoapi.azurewebsites.net";
+// export const server = 'https://localhost:5011';
+export const server = 'https://jimcoapi.azurewebsites.net';
 
 export const apiBase = `${server}/api/v1`;
 
